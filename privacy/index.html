@@ -1,1 +1,115 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy · ZeuTab</title><link rel="icon" href="/assets/icon128.png"><link rel="stylesheet" href="/styles.css"></head><body><header><div class="wrap nav"><a class="brand" href="/"><img src="/assets/icon128.png" alt=""><span>ZeuTab</span></a><nav><a href="/">Home</a><a href="mailto:support@zeuleg.dev">Support</a></nav></div></header><main class="wrap policy"><h1>Privacy Policy</h1><p class="lede">Last updated: September 17, 2026</p><p><a class="pill" href="#english">English</a><a class="pill" href="#turkce">Türkçe</a></p><article id="english"><h2>Overview</h2><p>ZeuTab is a Chrome extension whose single purpose is to keep exactly one real Chrome New Tab available at the far right of each normal browser window.</p><h2>Data accessed</h2><p>ZeuTab uses Chrome's <code>tabs</code> permission to access tab information needed to manage browser tabs. In particular, it may inspect a tab's URL or pending URL locally to determine whether that tab is Chrome's New Tab page and to manage tab position and focus.</p><p>ZeuTab does not collect page content, form data, passwords, personal communications, or browsing history for analytics, advertising, profiling, or any other secondary purpose.</p><h2>Local session storage</h2><p>ZeuTab uses <code>chrome.storage.session</code> only for temporary recovery information needed when its Manifest V3 service worker restarts.</p><p>This recovery information contains numeric browser window/tab identifiers such as the last known active tab identifier. ZeuTab does not persist visited URLs, page content, or browsing history in extension storage.</p><p>Chrome manages session storage in memory. It is cleared when the extension is disabled, reloaded, or updated, and when the browser restarts.</p><h2>Data transmission and sharing</h2><p>ZeuTab does not transmit browser tab data, URLs, browsing activity, or other user data to the developer or to any external server.</p><p>ZeuTab does not sell, share, or transfer user data to third parties and does not use user data for advertising, tracking, profiling, creditworthiness, or personalized recommendations.</p><h2>Remote code</h2><p>ZeuTab does not download or execute remotely hosted code. All executable extension code is included in the installed extension package.</p><h2>Limited Use</h2><p>ZeuTab's access to browser information is limited to its single user-facing purpose: maintaining the New Tab anchor and related tab-position and focus behavior.</p><p>ZeuTab's use of information received from Chrome APIs is intended to comply with the Chrome Web Store User Data Policy, including its Limited Use requirements.</p><h2>Changes to this policy</h2><p>If ZeuTab's data practices change, this privacy policy will be updated before those changes are released.</p><h2>Contact</h2><p>For privacy questions or support, contact <a href="mailto:support@zeuleg.dev">support@zeuleg.dev</a>.</p></article><article id="turkce" lang="tr"><h2>Genel Bakış</h2><p>ZeuTab, her normal Chrome penceresinin en sağında tam olarak bir gerçek Chrome Yeni Sekme sayfasını hazır tutmak için geliştirilmiş bir Chrome uzantısıdır.</p><h2>Erişilen veriler</h2><p>ZeuTab, sekmeleri yönetmek için gerekli bilgilere erişebilmek amacıyla Chrome'un <code>tabs</code> iznini kullanır. Özellikle bir sekmenin Chrome'un Yeni Sekme sayfası olup olmadığını yerel olarak belirlemek ve sekme konumu ile odağını yönetmek için sekmenin URL veya bekleyen URL bilgisini inceleyebilir.</p><p>ZeuTab; analiz, reklam, profilleme veya başka bir ikincil amaç için sayfa içeriği, form verisi, parola, kişisel iletişim veya tarama geçmişi toplamaz.</p><h2>Yerel oturum depolaması</h2><p>ZeuTab, <code>chrome.storage.session</code> alanını yalnızca Manifest V3 servis worker'ı yeniden başladığında gereken geçici kurtarma bilgileri için kullanır.</p><p>Bu bilgiler, son bilinen aktif sekme kimliği gibi sayısal tarayıcı pencere/sekme kimliklerinden oluşur. ZeuTab ziyaret edilen URL'leri, sayfa içeriğini veya tarama geçmişini uzantı depolamasında kalıcı olarak saklamaz.</p><p>Oturum depolaması Chrome tarafından bellekte yönetilir; uzantı devre dışı bırakıldığında, yeniden yüklendiğinde veya güncellendiğinde ve tarayıcı yeniden başlatıldığında temizlenir.</p><h2>Veri aktarımı ve paylaşımı</h2><p>ZeuTab tarayıcı sekmesi verilerini, URL'leri, tarama etkinliğini veya diğer kullanıcı verilerini geliştiriciye ya da herhangi bir harici sunucuya aktarmaz.</p><p>ZeuTab kullanıcı verilerini üçüncü taraflara satmaz, paylaşmaz veya devretmez; reklam, izleme, profilleme, kredi değerliliği veya kişiselleştirilmiş öneriler amacıyla kullanmaz.</p><h2>Uzak kod</h2><p>ZeuTab uzaktan barındırılan kod indirmez veya çalıştırmaz. Çalıştırılabilir tüm uzantı kodu, yüklenen uzantı paketinin içinde bulunur.</p><h2>Sınırlı Kullanım</h2><p>ZeuTab'ın tarayıcı bilgilerine erişimi yalnızca tek kullanıcıya dönük amacıyla sınırlıdır: Yeni Sekme anchor'ını ve buna bağlı sekme konumu/odak davranışını korumak.</p><p>ZeuTab'ın Chrome API'lerinden aldığı bilgileri kullanımı, Limited Use gereksinimleri dahil Chrome Web Store Kullanıcı Verileri Politikası'na uygun olacak şekilde tasarlanmıştır.</p><h2>Değişiklikler</h2><p>ZeuTab'ın veri işleme uygulamaları değişirse, bu gizlilik politikası ilgili değişiklikler yayınlanmadan önce güncellenecektir.</p><h2>İletişim</h2><p>Gizlilik soruları veya destek için <a href="mailto:support@zeuleg.dev">support@zeuleg.dev</a> adresinden iletişime geçebilirsiniz.</p></article></main><footer><div class="wrap"><strong>ZeuTab</strong> · <a href="/">Home</a> · <a href="mailto:support@zeuleg.dev">support@zeuleg.dev</a></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy · ZeuTab</title>
+    <meta
+      name="description"
+      content="ZeuTab privacy policy: local tab processing, temporary session recovery hints, and no transmission of tab data to external servers."
+    />
+    <link rel="icon" type="image/png" sizes="128x128" href="/assets/icon128.png" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="wrap header-inner">
+          <a class="brand" href="/" aria-label="ZeuTab home">
+            <img src="/assets/icon128.png" width="40" height="40" alt="" />
+            <span>ZeuTab</span>
+          </a>
+          <nav class="site-nav" aria-label="Primary navigation">
+            <a href="/">Home</a>
+            <a href="mailto:support@zeuleg.dev">Support</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main" class="policy-main">
+        <header class="policy-header">
+          <p class="policy-kicker">Privacy</p>
+          <h1>Privacy Policy</h1>
+          <p class="policy-meta">Last updated: September 17, 2026</p>
+          <nav class="language-links" aria-label="Privacy policy languages">
+            <a class="pill" href="#english">English</a>
+            <a class="pill" href="#turkce">Türkçe</a>
+          </nav>
+        </header>
+
+        <article id="english" class="policy-article">
+          <h2>Overview</h2>
+          <p>ZeuTab is a Chrome extension whose single purpose is to keep exactly one real Chrome New Tab available at the far right of each normal browser window.</p>
+
+          <h2>Data accessed</h2>
+          <p>ZeuTab uses Chrome's <code>tabs</code> permission to access tab information needed to manage browser tabs. In particular, it may inspect a tab's URL or pending URL locally to determine whether that tab is Chrome's New Tab page and to manage tab position and focus.</p>
+          <p>ZeuTab does not collect page content, form data, passwords, personal communications, or browsing history for analytics, advertising, profiling, or any other secondary purpose.</p>
+
+          <h2>Local session storage</h2>
+          <p>ZeuTab uses <code>chrome.storage.session</code> only for temporary recovery information needed when its Manifest V3 service worker restarts.</p>
+          <p>This recovery information contains numeric browser window/tab identifiers such as the last known active tab identifier. ZeuTab does not persist visited URLs, page content, or browsing history in extension storage.</p>
+          <p>Chrome manages session storage in memory. It is cleared when the extension is disabled, reloaded, or updated, and when the browser restarts.</p>
+
+          <h2>Data transmission and sharing</h2>
+          <p>ZeuTab does not transmit browser tab data, URLs, browsing activity, or other user data to the developer or to any external server.</p>
+          <p>ZeuTab does not sell, share, or transfer user data to third parties and does not use user data for advertising, tracking, profiling, creditworthiness, or personalized recommendations.</p>
+
+          <h2>Remote code</h2>
+          <p>ZeuTab does not download or execute remotely hosted code. All executable extension code is included in the installed extension package.</p>
+
+          <h2>Limited Use</h2>
+          <p>ZeuTab's access to browser information is limited to its single user-facing purpose: maintaining the New Tab anchor and related tab-position and focus behavior.</p>
+          <p>ZeuTab's use of information received from Chrome APIs is intended to comply with the Chrome Web Store User Data Policy, including its Limited Use requirements.</p>
+
+          <h2>Changes to this policy</h2>
+          <p>If ZeuTab's data practices change, this privacy policy will be updated before those changes are released.</p>
+
+          <h2>Contact</h2>
+          <p>For privacy questions or support, contact <a href="mailto:support@zeuleg.dev">support@zeuleg.dev</a>.</p>
+        </article>
+
+        <article id="turkce" class="policy-article" lang="tr">
+          <h2>Genel Bakış</h2>
+          <p>ZeuTab, her normal Chrome penceresinin en sağında tam olarak bir gerçek Chrome Yeni Sekme sayfasını hazır tutmak için geliştirilmiş bir Chrome uzantısıdır.</p>
+
+          <h2>Erişilen veriler</h2>
+          <p>ZeuTab, sekmeleri yönetmek için gerekli bilgilere erişebilmek amacıyla Chrome'un <code>tabs</code> iznini kullanır. Özellikle bir sekmenin Chrome'un Yeni Sekme sayfası olup olmadığını yerel olarak belirlemek ve sekme konumu ile odağını yönetmek için sekmenin URL veya bekleyen URL bilgisini inceleyebilir.</p>
+          <p>ZeuTab; analiz, reklam, profilleme veya başka bir ikincil amaç için sayfa içeriği, form verisi, parola, kişisel iletişim veya tarama geçmişi toplamaz.</p>
+
+          <h2>Yerel oturum depolaması</h2>
+          <p>ZeuTab, <code>chrome.storage.session</code> alanını yalnızca Manifest V3 servis worker'ı yeniden başladığında gereken geçici kurtarma bilgileri için kullanır.</p>
+          <p>Bu bilgiler, son bilinen aktif sekme kimliği gibi sayısal tarayıcı pencere/sekme kimliklerinden oluşur. ZeuTab ziyaret edilen URL'leri, sayfa içeriğini veya tarama geçmişini uzantı depolamasında kalıcı olarak saklamaz.</p>
+          <p>Oturum depolaması Chrome tarafından bellekte yönetilir; uzantı devre dışı bırakıldığında, yeniden yüklendiğinde veya güncellendiğinde ve tarayıcı yeniden başlatıldığında temizlenir.</p>
+
+          <h2>Veri aktarımı ve paylaşımı</h2>
+          <p>ZeuTab tarayıcı sekmesi verilerini, URL'leri, tarama etkinliğini veya diğer kullanıcı verilerini geliştiriciye ya da herhangi bir harici sunucuya aktarmaz.</p>
+          <p>ZeuTab kullanıcı verilerini üçüncü taraflara satmaz, paylaşmaz veya devretmez; reklam, izleme, profilleme, kredi değerliliği veya kişiselleştirilmiş öneriler amacıyla kullanmaz.</p>
+
+          <h2>Uzak kod</h2>
+          <p>ZeuTab uzaktan barındırılan kod indirmez veya çalıştırmaz. Çalıştırılabilir tüm uzantı kodu, yüklenen uzantı paketinin içinde bulunur.</p>
+
+          <h2>Sınırlı Kullanım</h2>
+          <p>ZeuTab'ın tarayıcı bilgilerine erişimi yalnızca tek kullanıcıya dönük amacıyla sınırlıdır: Yeni Sekme anchor'ını ve buna bağlı sekme konumu/odak davranışını korumak.</p>
+          <p>ZeuTab'ın Chrome API'lerinden aldığı bilgileri kullanımı, Limited Use gereksinimleri dahil Chrome Web Store Kullanıcı Verileri Politikası'na uygun olacak şekilde tasarlanmıştır.</p>
+
+          <h2>Değişiklikler</h2>
+          <p>ZeuTab'ın veri işleme uygulamaları değişirse, bu gizlilik politikası ilgili değişiklikler yayınlanmadan önce güncellenecektir.</p>
+
+          <h2>İletişim</h2>
+          <p>Gizlilik soruları veya destek için <a href="mailto:support@zeuleg.dev">support@zeuleg.dev</a> adresinden iletişime geçebilirsiniz.</p>
+        </article>
+      </main>
+
+      <footer class="site-footer">
+        <div class="wrap footer-inner">
+          <span>© 2026 ZeuTab</span>
+          <span class="footer-links">
+            <a href="/">Home</a>
+            <a href="mailto:support@zeuleg.dev">support@zeuleg.dev</a>
+          </span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
